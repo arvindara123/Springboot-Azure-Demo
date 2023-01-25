@@ -11,7 +11,7 @@ public class SpringbootAzureDemoApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "Hello Azure bhai";
+		return "Hello Azure Cloud. First Deployment Successful";
 	}
 
 	public static void main(String[] args) {
